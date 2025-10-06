@@ -63,6 +63,7 @@ nav {
     background: #eaeae9;
     padding-bottom: 10px;
     padding-top: 8px;
+    z-index: 1000;
 }
 
 nav a {
@@ -110,7 +111,13 @@ nav a {
 .middle {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px;
+    gap: 30px;
+    
+}
+
+.post-image {
+    margin: 0%;
+    background: #3190f7;
 }
 
 .post{
@@ -118,10 +125,14 @@ nav a {
     grid-template-columns: 2fr 1fr;
 }
 
+div.post-image {
+    margin: 0%;
+}
+
 .post-image img {
-    width: 100%;
-    height: 225px; /* keeps aspect ratio */
-    display: block; /* removes inline spacing */
+    position: absolute;
+    width: 12%;
+    height: 34%;   
 }
 
 .post-text span.category1 {
@@ -136,9 +147,10 @@ nav a {
     border-bottom: 1px solid rgb(126, 122, 141);
     border-top: 1px solid rgb(126, 122, 141);
     border-left: 1px solid rgb(126, 122, 141);
+    margin: 0%;
     margin-bottom: 30px;
-    margin-right: 0px;
     padding: 10px;
+    background: #a83597;
 }
 
 .lowerhalf {
@@ -150,6 +162,9 @@ nav a {
 aside section {
     position: sticky;
     top: 60px;
+    background:rgb(183, 183, 185);
+    padding: 10px;
+    margin-top: 20px;
 }
 
 aside ul{
