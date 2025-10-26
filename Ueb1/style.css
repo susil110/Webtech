@@ -28,8 +28,7 @@ header {
 }
 
 header h1 { /*oder header > h1*/
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 0%;
     font-size: 35px;
     font-family: "DMSans";
 }
@@ -68,7 +67,6 @@ nav {
 
 nav a {
     color: rgb(71, 70, 84);
-    
 }
 
 .nav {
@@ -112,12 +110,8 @@ nav a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    margin-bottom: 30px;
     
-}
-
-.post-image {
-    margin: 0%;
-    background: #3190f7;
 }
 
 .post{
@@ -125,14 +119,10 @@ nav a {
     grid-template-columns: 2fr 1fr;
 }
 
-div.post-image {
-    margin: 0%;
-}
-
-.post-image img {
-    position: absolute;
-    width: 12%;
-    height: 34%;   
+img {
+    margin : 0;
+    width: 100%;
+    height: 100%;   
 }
 
 .post-text span.category1 {
@@ -148,9 +138,9 @@ div.post-image {
     border-top: 1px solid rgb(126, 122, 141);
     border-left: 1px solid rgb(126, 122, 141);
     margin: 0%;
-    margin-bottom: 30px;
+    
     padding: 10px;
-    background: #a83597;
+    background: #cecace;
 }
 
 .lowerhalf {
